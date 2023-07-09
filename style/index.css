@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* primary style */
+.primary-color {
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+
+.primarycolor {
+    color: #FD6E0A;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+
+
+
+}
+.silder-pic img{
+    margin-bottom: -4.5px;
+    
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.nav-logo {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+/* sllider desing */
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 120px;
+}
+
+
+.silder-text {
+    max-width: 500px;
+
+
+}
+
+.silder-text h3 {
+    font-size: 35px;
+    color: #474747;
+}
+
+.silder-text h2 {
+    font-size: 78px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.silder-text p {
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.silder-text button {
+    margin: 30px 30px 0px 0px;
+
+}
+
+#main {
+    text-align: center;
+
+    width: 1140px;
+    margin: auto;
+}
+
+.about-container {
+    width: 827px;
+    margin: auto;
+    background-color: #FFF8F3;
+    padding: 90px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.about-title h2 {
+    margin-bottom: 30px;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 50px 0px;
+
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+
+}
+
+.what-ido {
+    width: 827px;
+    margin: auto;
+    padding: 90px;
+
+}
+
+.manybox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.single-box {
+    text-align: left;
+
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.067);
+    margin-right: 20px;
+
+}
+
+.single-box img {
+    margin-bottom: 10px;
+}
+
+.single-box h4 {
+    margin-bottom: 10px;
+}
+
+.sammary-title {
+    padding-top: 90px;
+}
+
+.sammary-title h3 {
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.sumary-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.summary-item {
+
+    margin-bottom: 40px;
+}
+
+.summary-item h2 {
+    color: #474747;
+    font-size: 25px;
+    
+    margin-bottom: 30px;
+    font-family: Open Sans;
+
+}
+.summary-item h3 {
+
+    color: #474747;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+
+}
+.summary-item h4 {
+    margin: 10px 0px;
+    color: #474747;
+    font-size: 15px;
+    font-family: Open Sans;
+
+}
+.summary-item p {
+    color: #474747;
+    font-size: 18px;
+    font-family: Open Sans;
+
+}
+
+#footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+}
+.left-site h2 {
+    margin-bottom: 30px;
+}
+.left-site p {
+    color: #474747;
+    font-size: 16px;
+}
+
+.rightsite h2 {
+    margin-bottom: 30px;
+
+}
+.rightsite input, textarea{
+    border: 0;
+    margin-bottom: 24px;
+    padding: 20px 25px;
+    
+    background-color: #fff;
+}
+.rightsite input[type=text], textarea{
+    width: 100%;
+}
+.rightsite input[type=submit]{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* resume btn */
+.btn button{
+    margin-bottom: 50px;
+}
