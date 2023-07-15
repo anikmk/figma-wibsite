@@ -163,12 +163,10 @@ nav a {
     font-size: 20px;
 
 }
-
+/* box desing */
 .what-ido {
-    width: 827px;
-    margin: auto;
-    padding: 90px;
-
+    width: 60%;
+    margin: 30px auto;
 }
 
 .manybox {
@@ -179,7 +177,6 @@ nav a {
 
 .single-box {
     text-align: left;
-
     padding: 30px;
     background-color: #FFFFFF;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.067);
@@ -194,7 +191,7 @@ nav a {
 .single-box h4 {
     margin-bottom: 10px;
 }
-
+/* summary */
 .sammary-title {
     padding-top: 90px;
 }
@@ -225,6 +222,7 @@ nav a {
     font-size: 25px;
     
     margin-bottom: 30px;
+    margin-top: 10px;
     font-family: Open Sans;
 
 }
@@ -249,7 +247,7 @@ nav a {
     font-family: Open Sans;
 
 }
-
+/* footer desing */
 #footer{
     background-color: #FFF8F3;
     padding: 130px 230px;
@@ -295,3 +293,72 @@ nav a {
 .btn button{
     margin-bottom: 50px;
 }
+.hide{
+    display: none;
+}
+
+/* added media query for all small device */
+@media screen and (max-width:576px) {
+
+    .footer-container, .manybox, .about-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .about-container{
+           width: 100%;
+           padding: 0px;
+     margin: auto;
+    /* background-color: #FFF8F3; */
+    /* /* padding: 0px; */
+    }
+    #footer{
+        padding: 0px;
+    }
+    .rightsite input[type=text], textarea{
+        width: 80%;
+    }
+    /* single box */
+    .single-box{
+        width: 300px;
+    }
+    /* .what-ido {
+        width: 100%;
+        margin: 30px auto;
+    } */
+  .sumary-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .summary-item{
+    width: 300px;
+    
+  }
+    
+    
+    
+    
+}
+
+/* added media query for all medium device */
+/* @media screen and (min-width:577px) and (max-width:992px){
+
+    #footer{
+        padding: 20px;
+    }
+    .footer-container{
+        gap: 10px;
+    }
+    .rightsite input[type=text], textarea{
+        width: 85%;
+    }
+    .left-site{
+        width: 50%;
+    }
+    .rightsite{
+        width: 50%;
+    } */
+    
+     
