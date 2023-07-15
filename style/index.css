@@ -322,7 +322,12 @@ nav a {
     }
     /* single box */
     .single-box{
-        width: 300px;
+        width: 200px;
+        margin-right: 0px;
+    }
+    .sammary-title h3 {
+       
+        font-size: 20px;
     }
     /* .what-ido {
         width: 100%;
@@ -336,8 +341,57 @@ nav a {
     width: 300px;
     
   }
+  #main {
+    width: 100vw;
+  }
+  /* manubar responsive */
+.container{
+    width: 100vw;
+} 
+.primary-color {
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 14;
+    font-weight: 400;
+    border: 0;
+    padding: 5px 5px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.067);
     
-    
+} 
+nav a {
+    padding: 10px 15px;
+}
+nav > ul {
+    padding-top: 10px;
+}
+.nav-logo{
+    font-size: 20px;
+}
+.slider-container{
+    padding: 15px 0px 0px 5px;
+    flex-direction: column;
+   
+}
+.silder-pic img {
+    width: 80%;
+}
+.silder-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.silder-text button {
+    margin: 10px 10px 0px 0px;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: none;
+    background-position: bottom right, top left;
+
+
+
+}
     
     
 }
